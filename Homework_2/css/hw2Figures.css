@@ -1,0 +1,42 @@
+
+.container {
+    width: 800px;
+	height: 450px;
+	background:#F3C062;
+	border:2px solid #490405;
+	border-radius:10px;
+	margin: 80px auto;
+	position:relative;
+	
+  }
+.fig1 {
+	width: 100px;
+	height: 100px;
+	background:#10CDA1;
+	border:2px solid #490405;
+	border-radius:10px;
+	float:left;
+	position:absolute;
+}
+.fig2 {
+	width: 400px;
+	height: 250px;
+	background:#EC6243;
+	border:2px solid #490405;
+	border-radius:10px;
+	float:right;
+	position:relative;
+	margin-top:100px;
+	margin-bottom:100px;
+}
+.fig3 {
+	width: 100px;
+	height: 100px;
+	background:#A0E978;
+	border:2px solid #490405;
+	float:left;
+	position:absolute;
+	margin-left:100px;
+	margin-bottom:100px;
+	margin-top:50px;
+}
