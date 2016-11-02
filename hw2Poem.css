@@ -1,0 +1,28 @@
+body {
+	text-align:center;
+	padding-top:30px;
+	background-color:#ADD1F3;
+	color:#5B0078;	
+}
+@font-face {
+    font-family: "Roboto Light"; 
+    src: url(fonts/RobotoLight.ttf);
+	}
+@font-face {
+    font-family: "Roboto Regular"; 
+    src: url(fonts/RobotoRegular.ttf); 
+   }
+@font-face {
+    font-family: "Garamond"; 
+    src: url(fonts/Garamond.ttf); 
+   }
+.font1 {
+    font-family: "Roboto Light";
+   }
+.font2 {
+	font-family: "Roboto Regular"; 
+ }
+.font3 {
+	font-family: "Garamond"; 
+}
+   
