@@ -1,0 +1,27 @@
+div {
+	width:60%;
+	margin: 0 auto;
+	
+}
+@font-face {
+    	font-family: "Roboto Regular"; 
+    	src: url(fonts/RobotoRegular.ttf); 
+   }
+p {
+	font-family: "Roboto Regular"; 
+	font-size:18px;
+	margin-left:20px;	
+ }
+
+.ol {
+	text-align:left;
+	padding-top:30px 30px;
+	background-color:#ADD1F3;
+	color:#5B0078;
+	}
+.ul {
+	text-align:left;
+	padding-top:30px 30px;
+	background-color:#F0B683;
+	color:#941E20;
+	}

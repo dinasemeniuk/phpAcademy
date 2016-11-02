@@ -1,0 +1,26 @@
+
+body {
+	font-family:"Segoe"; 
+	font-size:18px;
+	margin:50px 200px;	
+}
+table {
+	border-right:3px solid black;
+	border-bottom:3px solid black;
+	border-top:3px solid grey;
+	border-left:3px solid grey;
+}
+th {
+	border-top:3px solid black;
+	border-left:3px solid black;
+	border-bottom:3px solid grey;
+	border-right:3px solid grey;
+	text-align:center;
+}
+td {
+	border-top:3px solid black;
+	border-left:3px solid black;
+	border-bottom:3px solid grey;
+	border-right:3px solid grey;
+	text-align:left;
+}
