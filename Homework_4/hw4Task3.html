@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>hw4Task3</title>
+
+    <script type="text/javascript">
+	
+	var calc = prompt("Choose the operation: 1-add, 2-subtract, 3-multiply, 4-divide,5-percent.");
+	var num1 = prompt("Enter your first number here:");
+	var num2 = prompt("Enter your second number here:");
+	var result;
+	
+	var calc = parseInt(calc);
+	var num1 = parseInt(num1);
+	var num2 = parseInt(num2);
+	
+	
+	switch (calc){ 
+	case 1:
+		{
+		result = num1 + num2;
+		alert(num1+" plus "+num2+" equals "+result);
+		}
+		break;
+	case 2:
+		{
+		result = num1 - num2;
+		alert(num1+" minus "+num2+" equals "+result);
+		}
+		break;
+	case 3:
+		{
+		result = num1 * num2;
+		alert(num1+" multiplied by "+num2+" equals "+result);
+		}
+		break;
+	case 4:
+		{
+		result = num1 / num2;
+		alert(num1+" divided by "+num2+" equals "+result);
+		}
+		break;
+	case 5:
+		{
+		result = num1 / 100 * num2;
+		alert(num1+" % of "+num2+" equals "+result);
+		}
+		break;
+	default:
+		{
+		alert("You chose a non-existing operation. Try again.");
+		}
+		break;
+    }
+	</script>
+	</head>
+<body>
+</body>
+</html>
+
+
